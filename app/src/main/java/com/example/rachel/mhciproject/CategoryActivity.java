@@ -5,21 +5,29 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 /**
  * Created by jack on 28/02/2017.
+ * Activity displaying the three categories:
+ *  - Preset workouts
+ *  - Custom Workouts
+ *  - Most Recent Workout
  */
 
 
 public class CategoryActivity extends Activity {
+
     ListView listview;
+    Button BackButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_list);
         listview = (ListView) findViewById(R.id.categories_listview);
-        listview.setAdapter(new ListViewAdapter(this, new String[] { "Presets", "Custom", "Most Recent Workout" }));
+        listview.setAdapter(new CategoryListViewAdapter(this, new String[] { "Presets", "Custom", "Most Recent Workout" }));
 
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view,  int position, long id) {
@@ -43,6 +51,16 @@ public class CategoryActivity extends Activity {
                 }
             }
         });
+
+        BackButton = (Button)findViewById(R.id.back_button);
+        BackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(CategoryActivity.this, MainActivity.class);
+                startActivityForResult(i, 0);
+            }
+        });
+
     }
 }
 

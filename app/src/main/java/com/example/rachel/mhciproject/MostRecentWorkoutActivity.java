@@ -7,5 +7,5 @@ import android.app.Activity;
  */
 
 public class MostRecentWorkoutActivity extends Activity {
-    
+
 }

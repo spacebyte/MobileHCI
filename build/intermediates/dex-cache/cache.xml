@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="90a58d5ead12d27706196663378799eb576dc200">
+        sha1="6ad4af32ae0ec2423790f5646e48c6b397eddbee">
         <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1fae731972934bf7829b5e3ece291250722db186\classes.dex" />
     </item>
     <item
@@ -106,7 +106,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="22a17659f6dca715474f0e86be4017179444f26e">
+        sha1="4fae166296ee65e9909de90362f3eb7b6445ffac">
         <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ed76217083ee2955db01d70b8cd962f27f44ad1f\classes.dex" />
     </item>
     <item

@@ -1,11 +1,9 @@
 package com.example.rachel.mhciproject;
 
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 
@@ -13,12 +11,12 @@ import android.widget.TextView;
  * Created by jack on 28/02/2017.
  */
 
-public class ListViewAdapter extends BaseAdapter {
+public class WorkoutListViewAdapter extends BaseAdapter {
     Context context;
     String[] data;
     private static LayoutInflater inflater = null;
 
-    public ListViewAdapter(Context context, String[] data) {
+    public WorkoutListViewAdapter(Context context, String[] data) {
         this.context = context;
         this.data = data;
         inflater = (LayoutInflater) context
@@ -44,7 +42,7 @@ public class ListViewAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         View vi = convertView;
         if (vi == null)
-            vi = inflater.inflate(R.layout.row, null);
+            vi = inflater.inflate(R.layout.workout_list_row, null);
         TextView text = (TextView) vi.findViewById(R.id.text);
         text.setText(data[position]);
         return vi;
