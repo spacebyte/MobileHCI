@@ -22,7 +22,6 @@
 
     <com.eralp.circleprogressview.CircleProgressView
         android:id="@+id/circle_progress_view2"
-        android:layout_weight="1"
         android:layout_height="200dp"
         android:layout_gravity="center"
         app:cpv_circle_color="#27375c"
@@ -43,7 +42,6 @@
     <com.eralp.circleprogressview.CircleProgressView
         android:id="@+id/circle_progress_view"
         android:layout_width="100dp"
-        android:layout_weight="1"
         android:layout_height="200dp"
         android:layout_gravity="center"
         app:cpv_circle_color="#27375c"
@@ -81,4 +79,12 @@
         android:layout_marginLeft="18dp"
         android:layout_marginStart="18dp"
         android:id="@+id/textView4" />
+
+    <Button
+        android:id="@+id/to_category_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:text="START WORKOUT" />
 </RelativeLayout>

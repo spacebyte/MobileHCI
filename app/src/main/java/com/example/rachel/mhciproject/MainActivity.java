@@ -1,8 +1,11 @@
 package com.example.rachel.mhciproject;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.eralp.circleprogressview.CircleProgressView;
@@ -14,6 +17,8 @@ import com.jjoe64.graphview.series.DataPoint;
 import com.jjoe64.graphview.series.LineGraphSeries;
 
 public class MainActivity extends AppCompatActivity {
+
+    private Button ToCategory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +58,14 @@ public class MainActivity extends AppCompatActivity {
         nCircleProgressView.setStartAngle(45);
         nCircleProgressView.setProgressWithAnimation(85, 2000);
 
+        ToCategory = (Button)findViewById(R.id.to_category_button);
+        ToCategory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, CategoryActivity.class);
+                startActivityForResult(i, 0);
+            }
+        });
 
 
 
