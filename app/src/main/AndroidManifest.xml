@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rachel.mhciproject">
+
+
 
     <application
         android:allowBackup="true"
@@ -18,9 +21,23 @@
         <activity android:name=".CategoryActivity"
                   android:label="@string/app_name"/>
         <activity android:name=".PresetWorkoutsActivity"
-                  android:label="@string/app_name"/>
+                  android:label="@string/preset_workouts_title"/>
         <activity android:name=".CustomWorkoutsActivity"
-                  android:label="@string/app_name"/>
+                  android:label="@string/custom_workouts_title"/>
+        <activity android:name=".CreateCustomWorkoutActivity"
+                  android:label="@string/create_custom_workout_title"/>
+        <activity android:name=".BuildWorkoutActivity"
+                  android:label="@string/build_workout_title"/>
+        <activity android:name=".ReviewActivity"
+                  android:label="@string/review_title"/>
+        <activity android:name=".WorkoutProgressActivity"
+                  android:label="@string/workout_progress_title"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBxvwhUNWNyvoOpfhEEmdd9P9PYSTGcGW8"/>
     </application>
 
 </manifest>

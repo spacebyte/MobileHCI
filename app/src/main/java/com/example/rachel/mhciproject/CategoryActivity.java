@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
 
 /**
  * Created by jack on 28/02/2017.
@@ -21,11 +22,16 @@ public class CategoryActivity extends Activity {
 
     ListView listview;
     Button BackButton;
+    TextView ToolbarText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_list);
+
+        ToolbarText = (TextView)findViewById(R.id.toolbar_text);
+        ToolbarText.setText(R.string.category_list_title);
+
         listview = (ListView) findViewById(R.id.categories_listview);
         listview.setAdapter(new CategoryListViewAdapter(this, new String[] { "Presets", "Custom", "Most Recent Workout" }));
 

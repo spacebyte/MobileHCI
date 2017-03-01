@@ -3,7 +3,6 @@ package com.example.rachel.mhciproject;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -16,10 +15,10 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 /**
- * Created by jack on 28/02/2017.
+ * Created by jack on 01/03/2017.
  */
 
-public class CreateCustomWorkoutActivity extends FragmentActivity implements OnMapReadyCallback {
+public class BuildWorkoutActivity extends FragmentActivity implements OnMapReadyCallback {
 
     Button BackButton, NextButton;
     TextView ToolbarText;
@@ -27,10 +26,10 @@ public class CreateCustomWorkoutActivity extends FragmentActivity implements OnM
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_create_custom_workout);
+        setContentView(R.layout.activity_build_workout);
 
         ToolbarText = (TextView)findViewById(R.id.toolbar_text);
-        ToolbarText.setText(R.string.create_custom_workout_title);
+        ToolbarText.setText(R.string.build_workout_title);
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
@@ -39,7 +38,7 @@ public class CreateCustomWorkoutActivity extends FragmentActivity implements OnM
         BackButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent i = new Intent(CreateCustomWorkoutActivity.this, CustomWorkoutsActivity.class);
+                Intent i = new Intent(BuildWorkoutActivity.this, CustomWorkoutsActivity.class);
                 startActivityForResult(i, 0);
             }
         });
@@ -48,7 +47,7 @@ public class CreateCustomWorkoutActivity extends FragmentActivity implements OnM
         NextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent i = new Intent(CreateCustomWorkoutActivity.this, BuildWorkoutActivity.class);
+                Intent i = new Intent(BuildWorkoutActivity.this, ReviewActivity.class);
                 startActivityForResult(i, 0);
             }
         });

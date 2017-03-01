@@ -4,6 +4,9 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
     android:weightSum="10">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
     <ListView
         android:id="@+id/categories_listview"
         android:layout_width="fill_parent"
