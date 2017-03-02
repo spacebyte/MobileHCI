@@ -58,6 +58,30 @@ public class MainActivity extends AppCompatActivity {
         nCircleProgressView.setStartAngle(45);
         nCircleProgressView.setProgressWithAnimation(85, 2000);
 
+        CircleProgressView oCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view1);
+        oCircleProgressView.setTextEnabled(true);
+        oCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        oCircleProgressView.setStartAngle(45);
+        oCircleProgressView.setProgressWithAnimation(50, 2000);
+
+        CircleProgressView pCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view3);
+        pCircleProgressView.setTextEnabled(true);
+        pCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        pCircleProgressView.setStartAngle(45);
+        pCircleProgressView.setProgressWithAnimation(75, 2000);
+
+        CircleProgressView qCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view4);
+        qCircleProgressView.setTextEnabled(true);
+        qCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        qCircleProgressView.setStartAngle(45);
+        qCircleProgressView.setProgressWithAnimation(60, 2000);
+
+        CircleProgressView rCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view5);
+        rCircleProgressView.setTextEnabled(true);
+        rCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        rCircleProgressView.setStartAngle(45);
+        rCircleProgressView.setProgressWithAnimation(100, 2000);
+
         ToCategory = (Button)findViewById(R.id.to_category_button);
         ToCategory.setOnClickListener(new View.OnClickListener() {
             @Override

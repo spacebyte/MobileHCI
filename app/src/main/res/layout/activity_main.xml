@@ -5,6 +5,8 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+
     tools:context="com.example.rachel.mhciproject.MainActivity">
 
 
@@ -16,71 +18,171 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <Button
+        android:id="@+id/to_category_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#b9ecff"
+        android:gravity="center"
+        android:text="START WORKOUT" />
+
     <com.eralp.circleprogressview.CircleProgressView
         android:id="@+id/circle_progress_view2"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        app:cpv_circle_color="#27375c"
+        app:cpv_circle_color="#a138ea"
         app:cpv_circle_width="6dp"
         app:cpv_background_circle_width="1dp"
         app:cpv_background_circle_color="#5b253048"
         app:cpv_text_prefix="%"
-        app:cpv_text_size="40"
+        app:cpv_text_size="30"
         app:cpv_text_color="#27375c"
         android:layout_width="100dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="18dp"
         android:layout_below="@+id/graph"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="37dp"
-        android:layout_marginStart="37dp" />
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <com.eralp.circleprogressview.CircleProgressView
+        android:id="@+id/circle_progress_view4"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cpv_circle_color="#38ea4d"
+        app:cpv_circle_width="6dp"
+        app:cpv_background_circle_width="1dp"
+        app:cpv_background_circle_color="#5b253048"
+        app:cpv_text_prefix="%"
+        app:cpv_text_size="30"
+        app:cpv_text_color="#27375c"
+        android:layout_alignTop="@+id/circle_progress_view2"
+        android:layout_centerHorizontal="true" />
+
+    <com.eralp.circleprogressview.CircleProgressView
+        android:id="@+id/circle_progress_view1"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cpv_circle_color="#fda805"
+        app:cpv_circle_width="6dp"
+        app:cpv_background_circle_width="1dp"
+        app:cpv_background_circle_color="#5b253048"
+        app:cpv_text_prefix="%"
+        app:cpv_text_size="30"
+        app:cpv_text_color="#27375c"
+        android:layout_alignTop="@+id/circle_progress_view4"
+        android:layout_toRightOf="@+id/circle_progress_view4"
+        android:layout_toEndOf="@+id/circle_progress_view4"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp" />
+
+    <com.eralp.circleprogressview.CircleProgressView
+        android:id="@+id/circle_progress_view3"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cpv_circle_color="#ff289f"
+        app:cpv_circle_width="6dp"
+        app:cpv_background_circle_width="1dp"
+        app:cpv_background_circle_color="#5b253048"
+        app:cpv_text_prefix="%"
+        app:cpv_text_size="30"
+        app:cpv_text_color="#27375c"
+        android:layout_marginBottom="21dp"
+        android:layout_above="@+id/to_category_button"
+        android:layout_alignLeft="@+id/circle_progress_view2"
+        android:layout_alignStart="@+id/circle_progress_view2" />
+
+    <com.eralp.circleprogressview.CircleProgressView
+        android:id="@+id/circle_progress_view5"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:cpv_circle_color="#ffec37"
+        app:cpv_circle_width="6dp"
+        app:cpv_background_circle_width="1dp"
+        app:cpv_background_circle_color="#5b253048"
+        app:cpv_text_prefix="%"
+        app:cpv_text_size="30"
+        app:cpv_text_color="#27375c"
+        android:layout_alignTop="@+id/circle_progress_view3"
+        android:layout_alignLeft="@+id/circle_progress_view4"
+        android:layout_alignStart="@+id/circle_progress_view4" />
 
     <com.eralp.circleprogressview.CircleProgressView
         android:id="@+id/circle_progress_view"
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
-        app:cpv_circle_color="#27375c"
+        app:cpv_circle_color="#4475e5"
         app:cpv_circle_width="6dp"
         app:cpv_background_circle_width="1dp"
         app:cpv_background_circle_color="#5b253048"
         app:cpv_text_prefix="%"
-        app:cpv_text_size="40"
+        app:cpv_text_size="30"
         app:cpv_text_color="#27375c"
-        android:layout_alignTop="@+id/circle_progress_view2"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="33dp"
-        android:layout_marginEnd="33dp" />
+        android:layout_alignTop="@+id/circle_progress_view5"
+        android:layout_alignLeft="@+id/circle_progress_view1"
+        android:layout_alignStart="@+id/circle_progress_view1" />
+
+    <TextView
+        android:text="High Knees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Jumping Jacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignRight="@+id/circle_progress_view1"
+        android:layout_alignEnd="@+id/circle_progress_view1" />
+
+    <TextView
+        android:text="Lunges"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:layout_marginRight="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_below="@+id/circle_progress_view"
+        android:layout_alignRight="@+id/circle_progress_view"
+        android:layout_alignEnd="@+id/circle_progress_view" />
+
+    <TextView
+        android:text="Squats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/circle_progress_view5"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:text="SitUps"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
         android:id="@+id/textView3"
         android:layout_below="@+id/circle_progress_view2"
         android:layout_alignLeft="@+id/circle_progress_view2"
         android:layout_alignStart="@+id/circle_progress_view2"
-        android:layout_marginLeft="26dp"
-        android:layout_marginStart="26dp" />
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
 
     <TextView
         android:text="PushUps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView3"
-        android:layout_alignLeft="@+id/circle_progress_view"
-        android:layout_alignStart="@+id/circle_progress_view"
-        android:layout_marginLeft="18dp"
-        android:layout_marginStart="18dp"
-        android:id="@+id/textView4" />
-
-    <Button
-        android:id="@+id/to_category_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:gravity="center"
-        android:text="START WORKOUT" />
+        android:id="@+id/textView4"
+        android:layout_above="@+id/to_category_button"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
 </RelativeLayout>

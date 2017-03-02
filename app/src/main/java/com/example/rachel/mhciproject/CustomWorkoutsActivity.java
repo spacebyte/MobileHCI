@@ -27,7 +27,7 @@ public class CustomWorkoutsActivity extends Activity{
         ToolbarText.setText(R.string.custom_workouts_title);
 
         listview = (ListView) findViewById(R.id.customs_listview);
-        listview.setAdapter(new WorkoutListViewAdapter(this, new String[] { "Workout 1", "Workout 2", "Workout 3" }));
+        listview.setAdapter(new CategoryListViewAdapter(this, new String[] { "Workout 1", "Workout 2", "Workout 3" }));
 
         BackButton = (Button)findViewById(R.id.back_button);
         BackButton.setOnClickListener(new View.OnClickListener() {
