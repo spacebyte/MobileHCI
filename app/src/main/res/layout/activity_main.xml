@@ -28,7 +28,7 @@
         android:text="START WORKOUT" />
 
     <com.eralp.circleprogressview.CircleProgressView
-        android:id="@+id/circle_progress_view2"
+        android:id="@+id/sit_ups_circle_progress"
         android:layout_height="200dp"
         android:layout_gravity="center"
         app:cpv_circle_color="#a138ea"
@@ -47,7 +47,7 @@
         android:layout_marginStart="17dp" />
 
     <com.eralp.circleprogressview.CircleProgressView
-        android:id="@+id/circle_progress_view4"
+        android:id="@+id/high_knees_circle_progress"
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
@@ -58,11 +58,11 @@
         app:cpv_text_prefix="%"
         app:cpv_text_size="30"
         app:cpv_text_color="#27375c"
-        android:layout_alignTop="@+id/circle_progress_view2"
+        android:layout_alignTop="@+id/sit_ups_circle_progress"
         android:layout_centerHorizontal="true" />
 
     <com.eralp.circleprogressview.CircleProgressView
-        android:id="@+id/circle_progress_view1"
+        android:id="@+id/jumping_jacks_circle_progress"
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
@@ -73,14 +73,14 @@
         app:cpv_text_prefix="%"
         app:cpv_text_size="30"
         app:cpv_text_color="#27375c"
-        android:layout_alignTop="@+id/circle_progress_view4"
-        android:layout_toRightOf="@+id/circle_progress_view4"
-        android:layout_toEndOf="@+id/circle_progress_view4"
+        android:layout_alignTop="@+id/high_knees_circle_progress"
+        android:layout_toRightOf="@+id/high_knees_circle_progress"
+        android:layout_toEndOf="@+id/high_knees_circle_progress"
         android:layout_marginLeft="17dp"
         android:layout_marginStart="17dp" />
 
     <com.eralp.circleprogressview.CircleProgressView
-        android:id="@+id/circle_progress_view3"
+        android:id="@+id/push_ups_circle_progress"
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
@@ -93,11 +93,11 @@
         app:cpv_text_color="#27375c"
         android:layout_marginBottom="21dp"
         android:layout_above="@+id/to_category_button"
-        android:layout_alignLeft="@+id/circle_progress_view2"
-        android:layout_alignStart="@+id/circle_progress_view2" />
+        android:layout_alignLeft="@+id/sit_ups_circle_progress"
+        android:layout_alignStart="@+id/sit_ups_circle_progress" />
 
     <com.eralp.circleprogressview.CircleProgressView
-        android:id="@+id/circle_progress_view5"
+        android:id="@+id/squats_circle_progress"
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
@@ -108,12 +108,12 @@
         app:cpv_text_prefix="%"
         app:cpv_text_size="30"
         app:cpv_text_color="#27375c"
-        android:layout_alignTop="@+id/circle_progress_view3"
-        android:layout_alignLeft="@+id/circle_progress_view4"
-        android:layout_alignStart="@+id/circle_progress_view4" />
+        android:layout_alignTop="@+id/push_ups_circle_progress"
+        android:layout_alignLeft="@+id/high_knees_circle_progress"
+        android:layout_alignStart="@+id/high_knees_circle_progress" />
 
     <com.eralp.circleprogressview.CircleProgressView
-        android:id="@+id/circle_progress_view"
+        android:id="@+id/lunges_circle_progress"
         android:layout_width="100dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
@@ -124,65 +124,65 @@
         app:cpv_text_prefix="%"
         app:cpv_text_size="30"
         app:cpv_text_color="#27375c"
-        android:layout_alignTop="@+id/circle_progress_view5"
-        android:layout_alignLeft="@+id/circle_progress_view1"
-        android:layout_alignStart="@+id/circle_progress_view1" />
+        android:layout_alignTop="@+id/squats_circle_progress"
+        android:layout_alignLeft="@+id/jumping_jacks_circle_progress"
+        android:layout_alignStart="@+id/jumping_jacks_circle_progress" />
 
     <TextView
+        android:id="@+id/high_knees_text_view"
         android:text="High Knees"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView8"
-        android:layout_alignBaseline="@+id/textView3"
-        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignBaseline="@+id/sit_ups_text_view"
+        android:layout_alignBottom="@+id/sit_ups_text_view"
         android:layout_centerHorizontal="true" />
 
     <TextView
+        android:id="@+id/jumping_jacks_text_view"
         android:text="Jumping Jacks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView5"
-        android:layout_alignBaseline="@+id/textView3"
-        android:layout_alignBottom="@+id/textView3"
-        android:layout_alignRight="@+id/circle_progress_view1"
-        android:layout_alignEnd="@+id/circle_progress_view1" />
+        android:layout_alignBaseline="@+id/sit_ups_text_view"
+        android:layout_alignBottom="@+id/sit_ups_text_view"
+        android:layout_alignRight="@+id/jumping_jacks_circle_progress"
+        android:layout_alignEnd="@+id/jumping_jacks_circle_progress" />
 
     <TextView
+        android:id="@+id/lunges_text_view"
         android:text="Lunges"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView7"
         android:layout_marginRight="24dp"
         android:layout_marginEnd="24dp"
-        android:layout_below="@+id/circle_progress_view"
-        android:layout_alignRight="@+id/circle_progress_view"
-        android:layout_alignEnd="@+id/circle_progress_view" />
+        android:layout_below="@+id/lunges_circle_progress"
+        android:layout_alignRight="@+id/lunges_circle_progress"
+        android:layout_alignEnd="@+id/lunges_circle_progress" />
 
     <TextView
+        android:id="@+id/squats_text_view"
         android:text="Squats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView6"
-        android:layout_below="@+id/circle_progress_view5"
+        android:layout_below="@+id/squats_circle_progress"
         android:layout_centerHorizontal="true" />
 
     <TextView
+        android:id="@+id/sit_ups_text_view"
         android:text="SitUps"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/circle_progress_view2"
-        android:layout_alignLeft="@+id/circle_progress_view2"
-        android:layout_alignStart="@+id/circle_progress_view2"
+        android:layout_below="@+id/sit_ups_circle_progress"
+        android:layout_alignLeft="@+id/sit_ups_circle_progress"
+        android:layout_alignStart="@+id/sit_ups_circle_progress"
         android:layout_marginLeft="23dp"
         android:layout_marginStart="23dp" />
 
     <TextView
+        android:id="@+id/push_ups_text_view"
         android:text="PushUps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView4"
         android:layout_above="@+id/to_category_button"
-        android:layout_alignLeft="@+id/textView3"
-        android:layout_alignStart="@+id/textView3" />
+        android:layout_alignLeft="@+id/sit_ups_text_view"
+        android:layout_alignStart="@+id/sit_ups_text_view" />
 </RelativeLayout>

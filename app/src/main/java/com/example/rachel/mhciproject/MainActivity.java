@@ -6,19 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.eralp.circleprogressview.CircleProgressView;
-import com.eralp.circleprogressview.ProgressAnimationListener;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.helper.StaticLabelsFormatter;
 import com.jjoe64.graphview.series.BarGraphSeries;
 import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button ToCategory;
+    Button ToCategory;
+    CircleProgressView PushUpsProgressView, SitUpsProgressView, JumpingJacksProgressView,
+            SquatsProgressView, LungesProgressView, HighKneesProgressView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,43 +43,41 @@ public class MainActivity extends AppCompatActivity {
         staticLabelsFormatter.setHorizontalLabels(new String[] {"Mon", "Tue", "Wed", "Thur", "Fri","Sat", "Sun"});
         graph.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
 
-        CircleProgressView mCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view);
-        mCircleProgressView.setTextEnabled(true);
-        mCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
-        mCircleProgressView.setStartAngle(45);
-        mCircleProgressView.setProgressWithAnimation(65, 2000);
+        LungesProgressView = (CircleProgressView) findViewById(R.id.lunges_circle_progress);
+        LungesProgressView.setTextEnabled(true);
+        LungesProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        LungesProgressView.setStartAngle(270);
+        LungesProgressView.setProgressWithAnimation(65, 2000);
 
+        SitUpsProgressView = (CircleProgressView) findViewById(R.id.sit_ups_circle_progress);
+        SitUpsProgressView.setTextEnabled(true);
+        SitUpsProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        SitUpsProgressView.setStartAngle(270);
+        SitUpsProgressView.setProgressWithAnimation(85, 2000);
 
+        JumpingJacksProgressView = (CircleProgressView) findViewById(R.id.jumping_jacks_circle_progress);
+        JumpingJacksProgressView.setTextEnabled(true);
+        JumpingJacksProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        JumpingJacksProgressView.setStartAngle(270);
+        JumpingJacksProgressView.setProgressWithAnimation(50, 2000);
 
-        CircleProgressView nCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view2);
-        nCircleProgressView.setTextEnabled(true);
-        nCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
-        nCircleProgressView.setStartAngle(45);
-        nCircleProgressView.setProgressWithAnimation(85, 2000);
+        PushUpsProgressView = (CircleProgressView) findViewById(R.id.push_ups_circle_progress);
+        PushUpsProgressView.setTextEnabled(true);
+        PushUpsProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        PushUpsProgressView.setStartAngle(270);
+        PushUpsProgressView.setProgressWithAnimation(75, 2000);
 
-        CircleProgressView oCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view1);
-        oCircleProgressView.setTextEnabled(true);
-        oCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
-        oCircleProgressView.setStartAngle(45);
-        oCircleProgressView.setProgressWithAnimation(50, 2000);
+        HighKneesProgressView = (CircleProgressView) findViewById(R.id.high_knees_circle_progress);
+        HighKneesProgressView.setTextEnabled(true);
+        HighKneesProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        HighKneesProgressView.setStartAngle(270);
+        HighKneesProgressView.setProgressWithAnimation(60, 2000);
 
-        CircleProgressView pCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view3);
-        pCircleProgressView.setTextEnabled(true);
-        pCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
-        pCircleProgressView.setStartAngle(45);
-        pCircleProgressView.setProgressWithAnimation(75, 2000);
-
-        CircleProgressView qCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view4);
-        qCircleProgressView.setTextEnabled(true);
-        qCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
-        qCircleProgressView.setStartAngle(45);
-        qCircleProgressView.setProgressWithAnimation(60, 2000);
-
-        CircleProgressView rCircleProgressView = (CircleProgressView) findViewById(R.id.circle_progress_view5);
-        rCircleProgressView.setTextEnabled(true);
-        rCircleProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
-        rCircleProgressView.setStartAngle(45);
-        rCircleProgressView.setProgressWithAnimation(100, 2000);
+        SquatsProgressView = (CircleProgressView) findViewById(R.id.squats_circle_progress);
+        SquatsProgressView.setTextEnabled(true);
+        SquatsProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
+        SquatsProgressView.setStartAngle(270);
+        SquatsProgressView.setProgressWithAnimation(100, 2000);
 
         ToCategory = (Button)findViewById(R.id.to_category_button);
         ToCategory.setOnClickListener(new View.OnClickListener() {
