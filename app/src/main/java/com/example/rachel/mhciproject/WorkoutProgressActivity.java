@@ -9,17 +9,16 @@ import android.os.Bundle;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
 import android.bluetooth.le.ScanCallback;
-import android.bluetooth.le.ScanFilter;
 import android.bluetooth.le.ScanResult;
 import android.bluetooth.le.ScanSettings;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.ImageView;
 import android.widget.Toast;
-
-
-import java.util.ArrayList;
+import android.graphics.Color;
 import java.util.List;
 
 /**
@@ -34,6 +33,10 @@ public class WorkoutProgressActivity extends Activity {
     private BluetoothLeScanner scanner = null;
     private Button toggleScan = null;
     private TextView progressText = null;
+    private ImageView activityImage = null;
+    private ImageView nextActivityImage = null;
+    private TextView nextActivityText = null;
+    private TextView upNext = null;
 
     // request ID for enabling Bluetooth
     private static final int REQUEST_ENABLE_BT = 1000;
@@ -47,6 +50,10 @@ public class WorkoutProgressActivity extends Activity {
         setContentView(R.layout.activity_workout_progress);
 
         progressText = (TextView) findViewById(R.id.progressText);
+        activityImage = (ImageView) findViewById(R.id.activityImage);
+        nextActivityImage = (ImageView) findViewById(R.id.nextActivityImage);
+        nextActivityText = (TextView) findViewById(R.id.nextActivityText);
+        upNext = (TextView) findViewById(R.id.upNext);
 
         // set up a handler for taps on the start/stop scanning button
         toggleScan = (Button) findViewById(R.id.btnToggleScan);
@@ -96,10 +103,20 @@ public class WorkoutProgressActivity extends Activity {
         }
 
         toggleScan.setText("Resume Workout");
+        activityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.pause));
+        progressText.setTextColor(Color.rgb(211,211,211));
     }
 
     private void startWorkout() {
         toggleScan.setText("Pause Workout");
+        activityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.running));
+        activityImage.setVisibility(View.VISIBLE);
+        progressText.setTextColor(Color.rgb(127,127,127));
+        progressText.setVisibility(View.VISIBLE);
+        upNext.setVisibility(View.VISIBLE);
+        nextActivityImage.setVisibility(View.VISIBLE);
+        nextActivityText.setVisibility(View.VISIBLE);
+
         if(scanner == null) {
             scanner = bleDev.getBluetoothLeScanner();
             if(scanner == null) {
@@ -112,8 +129,6 @@ public class WorkoutProgressActivity extends Activity {
 
         Toast.makeText(this, "Starting BLE scan...", Toast.LENGTH_SHORT).show();
 
-        List<ScanFilter> filters = new ArrayList<>();
-        ScanSettings settings = new ScanSettings.Builder().setScanMode(scanMode).build();
         scanner.startScan(bleScanCallback);
         isScanning = true;
     }

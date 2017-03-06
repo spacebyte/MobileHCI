@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
               android:layout_width="match_parent"
     android:background="@color/white"
 
     android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnToggleScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Workout"
+        android:paddingTop="10px"
+        android:layout_margin="50px"
+        android:background="#b9ecff" />
+
+    <ImageView
+        android:id="@+id/activityImage"
+        android:layout_width="400px"
+        android:layout_height="400px"
+        android:src="@drawable/running"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:layout_margin="40px" />
     <TextView
         android:id="@+id/progressText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This will show how far through the workout the user is"/>
-    <Button
-        android:id="@+id/btnToggleScan"
+        android:text="Running"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/upNext"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:text="Up Next:"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="80px"
+        android:layout_marginTop="300px"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/nextActivityImage"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_margin="5px"
+        android:src="@drawable/push_up"
+        android:layout_gravity="bottom|right"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/nextActivityText"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:text="flat pushups"
+        android:layout_gravity="bottom|right"
+        android:visibility="invisible" />
+
 </LinearLayout>
