@@ -1,16 +1,21 @@
 package com.example.rachel.mhciproject;
 
+import android.*;
+import android.Manifest;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.le.BluetoothLeScanner;
 import android.content.Context;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
 import android.bluetooth.le.ScanCallback;
 import android.bluetooth.le.ScanResult;
 import android.bluetooth.le.ScanSettings;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
@@ -55,6 +60,12 @@ public class WorkoutProgressActivity extends Activity {
         nextActivityText = (TextView) findViewById(R.id.nextActivityText);
         upNext = (TextView) findViewById(R.id.upNext);
 
+        ActivityCompat.requestPermissions(this,
+                        new String[]{Manifest.permission.BLUETOOTH,
+                                Manifest.permission.BLUETOOTH_ADMIN,
+                                Manifest.permission.ACCESS_COARSE_LOCATION},
+                        1);
+
         // set up a handler for taps on the start/stop scanning button
         toggleScan = (Button) findViewById(R.id.btnToggleScan);
         toggleScan.setOnClickListener(new View.OnClickListener() {
@@ -66,14 +77,6 @@ public class WorkoutProgressActivity extends Activity {
 
         });
 
-        // retrieve the BluetoothManager instance and check if Bluetooth is enabled. If not the
-        // user will be prompted to enable it and the response will be checked in onActivityResult
-        final BluetoothManager bluetoothManager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
-        bleDev = bluetoothManager.getAdapter();
-        if (bleDev == null || !bleDev.isEnabled()) {
-            Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
-            startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
-        }
     }
 
     @Override
@@ -167,5 +170,29 @@ public class WorkoutProgressActivity extends Activity {
             Log.w(TAG, "ScanFailed(" + errorCode + ")");
         }
     };
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case 1: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                    // retrieve the BluetoothManager instance and check if Bluetooth is enabled. If not the
+                    // user will be prompted to enable it and the response will be checked in onActivityResult
+                    final BluetoothManager bluetoothManager = (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
+                    bleDev = bluetoothManager.getAdapter();
+                    if (bleDev == null || !bleDev.isEnabled()) {
+                        Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+                        startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
+                    }
+                } else {
+                    break;
+                }
+                return;
+            }
+        }
+    }
 
 }

@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="f707f119dfaabf88b8f6be0a3e5f9f038293660b">
+        sha1="f1174a30c29448399066f9316c7a1da656962baf">
         <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a35b3b1f766e082eb50aa5bb1db28efb27196952/classes.dex" />
     </item>
     <item
@@ -403,7 +403,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="2f3247a83b75eadab4bdb9118544c2a7e6eb4ccb">
+        sha1="5585d88c2c4a4a015ad28781b3c9a2564eacf4d6">
         <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7beecfae2b744bc935168b9ca373b17547cd9072/classes.dex" />
     </item>
     <item
