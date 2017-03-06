@@ -40,7 +40,6 @@ public class WorkoutProgressActivity extends Activity {
     private TextView progressText = null;
     private ImageView activityImage = null;
     private ImageView nextActivityImage = null;
-    private TextView nextActivityText = null;
     private TextView upNext = null;
 
     // request ID for enabling Bluetooth
@@ -57,7 +56,6 @@ public class WorkoutProgressActivity extends Activity {
         progressText = (TextView) findViewById(R.id.progressText);
         activityImage = (ImageView) findViewById(R.id.activityImage);
         nextActivityImage = (ImageView) findViewById(R.id.nextActivityImage);
-        nextActivityText = (TextView) findViewById(R.id.nextActivityText);
         upNext = (TextView) findViewById(R.id.upNext);
 
         ActivityCompat.requestPermissions(this,
@@ -118,7 +116,6 @@ public class WorkoutProgressActivity extends Activity {
         progressText.setVisibility(View.VISIBLE);
         upNext.setVisibility(View.VISIBLE);
         nextActivityImage.setVisibility(View.VISIBLE);
-        nextActivityText.setVisibility(View.VISIBLE);
 
         if(scanner == null) {
             scanner = bleDev.getBluetoothLeScanner();
@@ -136,13 +133,20 @@ public class WorkoutProgressActivity extends Activity {
         isScanning = true;
     }
 
+    private void nextWorkout(){
+        activityImage.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.push_up));
+        progressText.setText("Flat Pushup");
+        nextActivityImage.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.running));
+        upNext.setText("Up Next: Running");
+
+    }
+
     // class implementing BleScanner callbacks
     private ScanCallback bleScanCallback = new ScanCallback() {
 
         @Override
         public void onScanResult(int callbackType, ScanResult result) {
             super.onScanResult(callbackType, result);
-            progressText.setText("test1");
 
             final BluetoothDevice dev = result.getDevice();
 
@@ -150,7 +154,9 @@ public class WorkoutProgressActivity extends Activity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        progressText.setText("something");
+                        if(dev.getName().equals("Kontakt 0k30")){
+                            nextWorkout();
+                        }
                     }
                 });
             }
@@ -158,7 +164,6 @@ public class WorkoutProgressActivity extends Activity {
 
         @Override
         public void onBatchScanResults(List<ScanResult> results) {
-            progressText.setText("batch...");
             super.onBatchScanResults(results);
             Log.d(TAG, "BatchScanResult(" + results.size() + " results)");
         }
@@ -166,7 +171,6 @@ public class WorkoutProgressActivity extends Activity {
         @Override
         public void onScanFailed(int errorCode) {
             super.onScanFailed(errorCode);
-            progressText.setText("failed...");
             Log.w(TAG, "ScanFailed(" + errorCode + ")");
         }
     };
