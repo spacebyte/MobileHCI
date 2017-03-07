@@ -9,6 +9,8 @@
     app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     >
     <TextView
+        android:textColor="@color/white"
+        android:textSize="65px"
         android:id="@+id/toolbar_text"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

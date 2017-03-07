@@ -32,4 +32,6 @@ dependencies {
     compile 'com.github.eralpyucel:CircleProgressView:v1.1'
     compile 'com.google.android.gms:play-services:9.6.0'
 
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.1'
 }

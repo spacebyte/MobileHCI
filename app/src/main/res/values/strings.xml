@@ -13,5 +13,8 @@
     <string name="create_custom_workout_title">Select a starting point</string>
     <string name="build_workout_title">Select workout per lap</string>
     <string name="review_title">Review</string>
+    <string name="tab_text">Dashboard</string>
+    <string name="tab_text2">History</string>
+
     <string name="workout_progress_title">Progress</string>
 </resources>

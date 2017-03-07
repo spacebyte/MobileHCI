@@ -1,17 +1,26 @@
 package com.example.rachel.mhciproject;
 
+import android.app.ActionBar;
 import android.content.Intent;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.Button;
 
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
+
 import com.eralp.circleprogressview.CircleProgressView;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.helper.StaticLabelsFormatter;
 import com.jjoe64.graphview.series.BarGraphSeries;
 import com.jjoe64.graphview.series.DataPoint;
+
+import static com.example.rachel.mhciproject.R.layout.history;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,8 +32,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        TabLayout tabs = (TabLayout) findViewById(R.id.tabs);
+        tabs.setTabMode(TabLayout.MODE_FIXED);
+        tabs.addTab(tabs.newTab().setText("Dashboard"));
+        tabs.addTab(tabs.newTab().setText("History"));
 
-        GraphView graph = (GraphView) findViewById(R.id.graph);
+
+
+
+        /*GraphView graph = (GraphView) findViewById(R.id.graph);
         BarGraphSeries<DataPoint> series = new BarGraphSeries<>(new DataPoint[] {
                 new DataPoint(0, 1),
                 new DataPoint(1, 5),
@@ -42,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         StaticLabelsFormatter staticLabelsFormatter = new StaticLabelsFormatter(graph);
         staticLabelsFormatter.setHorizontalLabels(new String[] {"Mon", "Tue", "Wed", "Thur", "Fri","Sat", "Sun"});
         graph.getGridLabelRenderer().setLabelFormatter(staticLabelsFormatter);
-
+*/
         LungesProgressView = (CircleProgressView) findViewById(R.id.lunges_circle_progress);
         LungesProgressView.setTextEnabled(true);
         LungesProgressView.setInterpolator(new AccelerateDecelerateInterpolator());
