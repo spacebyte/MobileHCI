@@ -39,7 +39,24 @@
             android:visibility="invisible"
             android:textSize="30sp"
             android:layout_below="@+id/activityImage"
-            android:layout_centerInParent="true" />
+            android:layout_centerInParent="true"
+            android:textColor="#6B82FD"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="500px"
+            android:layout_height="wrap_content"
+            android:id="@+id/timer"
+            android:textSize="30sp"
+            android:padding="20sp"
+            android:layout_margin="10sp"
+            android:layout_below="@+id/progressText"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:background="#6B82FD"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAlignment="center" />
 
 
         <LinearLayout
