@@ -154,7 +154,7 @@ public class WorkoutProgressActivity extends Activity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        if(dev.getName().equals("Kontakt 0k30")){
+                        if(dev.getName()!=null && dev.getName().equals("Kontakt 0k30")){
                             nextWorkout();
                         }
                     }
