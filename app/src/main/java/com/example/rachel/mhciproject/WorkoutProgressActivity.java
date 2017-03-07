@@ -9,6 +9,7 @@ import android.bluetooth.le.BluetoothLeScanner;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothManager;
@@ -25,6 +26,9 @@ import android.widget.TextView;
 import android.widget.ImageView;
 import android.widget.Toast;
 import android.graphics.Color;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -42,9 +46,10 @@ public class WorkoutProgressActivity extends Activity {
     private ImageView activityImage = null;
     private ImageView nextActivityImage = null;
     private TextView upNext = null;
-    private boolean inBeaconRange = false;
+    private Button btnDoneWorkout = null;
+    private int workoutCount = 0;
+    private ArrayList<String> beaconNames = new ArrayList<>(Arrays.asList("Kontakt 0k30","beaconToy"));
 
-    private TextView tempTextView; //Temporary TextView
     private Handler mHandler = new Handler();
     private long startTime;
     private long elapsedTime;
@@ -52,6 +57,8 @@ public class WorkoutProgressActivity extends Activity {
     private String hours,minutes,seconds,milliseconds;
     private long secs,mins,hrs,msecs;
     private boolean stopped = false;
+
+    private MediaPlayer mp;
 
     // request ID for enabling Bluetooth
     private static final int REQUEST_ENABLE_BT = 1000;
@@ -68,6 +75,8 @@ public class WorkoutProgressActivity extends Activity {
         activityImage = (ImageView) findViewById(R.id.activityImage);
         nextActivityImage = (ImageView) findViewById(R.id.nextActivityImage);
         upNext = (TextView) findViewById(R.id.upNext);
+        btnDoneWorkout = (Button) findViewById(R.id.btnDoneWorkout);
+        toggleScan = (Button) findViewById(R.id.btnToggleScan);
 
         ActivityCompat.requestPermissions(this,
                         new String[]{Manifest.permission.BLUETOOTH,
@@ -75,13 +84,20 @@ public class WorkoutProgressActivity extends Activity {
                                 Manifest.permission.ACCESS_COARSE_LOCATION},
                         1);
 
-        // set up a handler for taps on the start/stop scanning button
-        toggleScan = (Button) findViewById(R.id.btnToggleScan);
         toggleScan.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 toggleScan();
+            }
+
+        });
+
+        btnDoneWorkout.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                setToRunning();
             }
 
         });
@@ -130,11 +146,6 @@ public class WorkoutProgressActivity extends Activity {
         }
     };
 
-    public void resetClick (View view){
-        stopped = false;
-        ((TextView)findViewById(R.id.timer)).setText("00:00:00");
-    }
-
     private void startWorkout() {
         if(stopped){
             startTime = System.currentTimeMillis() - elapsedTime;
@@ -171,28 +182,57 @@ public class WorkoutProgressActivity extends Activity {
         isScanning = true;
     }
 
-    private void nextWorkout(String workout){
-        if(workout.equals("Running")){
-            activityImage.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.running));
-            progressText.setText("Running");
-            stopped = false;
-            ((TextView)findViewById(R.id.timer)).setText("00:00:00");
-            mHandler.removeCallbacks(startTimer);
-            mHandler.postDelayed(startTimer, 0);
-
-            nextActivityImage.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.push_up));
-            upNext.setText("Up Next: Flat Pushups");
+    private void setToRunning(){
+        btnDoneWorkout.setVisibility(View.INVISIBLE);
+        activityImage.setImageDrawable(ContextCompat.getDrawable(this,R.drawable.running));
+        progressText.setText("Running");
+        stopped = false;
+        ((TextView)findViewById(R.id.timer)).setText("00:00:00");
+        mHandler.removeCallbacks(startTimer);
+        mHandler.postDelayed(startTimer, 0);
+        if(workoutCount==1) {
+            nextActivityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.squat));
+            upNext.setText("Up Next: Jumping Squats");
         }
-        else {
-            activityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.push_up));
-            progressText.setText("Flat Pushup");
-            nextActivityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.running));
-            upNext.setText("Up Next: Running");
-
-            mHandler.removeCallbacks(startTimer);
-            stopped = true;
-            ((TextView) findViewById(R.id.timer)).setText("10");
+        if(workoutCount==2){
+            nextActivityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.finish));
+            upNext.setText("Last Leg!");
         }
+    }
+
+    private void incrementWorkoutCount(){
+        this.workoutCount++;
+    }
+
+    private void nextWorkout(){
+        switch(workoutCount){
+            case 0:
+                activityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.push_up));
+                progressText.setText("Flat Pushup");
+
+                ((TextView) findViewById(R.id.timer)).setText("10");
+
+                mp = MediaPlayer.create(this, R.raw.workout_one);
+                mp.start();
+                break;
+            case 1:
+                activityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.squat));
+                progressText.setText("Jumping Squats");
+
+
+                ((TextView) findViewById(R.id.timer)).setText("25");
+
+                mp = MediaPlayer.create(this, R.raw.workout_two);
+                mp.start();
+                break;
+            default:
+                setToRunning();
+        }
+        mHandler.removeCallbacks(startTimer);
+        stopped = true;
+        btnDoneWorkout.setVisibility(View.VISIBLE);
+        nextActivityImage.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.running));
+        upNext.setText("Up Next: Running");
     }
 
     // class implementing BleScanner callbacks
@@ -208,15 +248,9 @@ public class WorkoutProgressActivity extends Activity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        if(dev.getName()!=null && dev.getName().equals("Kontakt 0k30")){
-                            nextWorkout("Flat Pushup");
-                            inBeaconRange=true;
-                        }
-                        else{
-                            if(inBeaconRange){
-                                nextWorkout("Running");
-                                inBeaconRange=false;
-                            }
+                        if (dev.getName() != null && dev.getName().equals(beaconNames.get(workoutCount))) {
+                            nextWorkout();
+                            incrementWorkoutCount();
                         }
                     }
                 });
@@ -314,5 +348,4 @@ public class WorkoutProgressActivity extends Activity {
 		/* Setting the timer text to the elapsed time */
         ((TextView)findViewById(R.id.timer)).setText(hours + ":" + minutes + ":" + seconds);
     }
-
 }
