@@ -9,6 +9,8 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.HashMap;
+
 /**
  * Created by jack on 28/02/2017.
  * Activity displaying the three categories:
@@ -51,7 +53,26 @@ public class CategoryActivity extends Activity {
                         startActivityForResult(i, 0);
                         break;
                     case 2:
-                        i = new Intent(CategoryActivity.this, MostRecentWorkoutActivity.class);
+                        String SELECTED_START = "Marker 4";
+                        String ORIGIN = "CATEGORIES";
+                        HashMap<String, String> WORKOUTS = new HashMap<>();
+                        WORKOUTS.put("Sit Ups 1", "10");
+                        WORKOUTS.put("Sit Ups 2", "5");
+                        WORKOUTS.put("Push Ups 1", "0");
+                        WORKOUTS.put("Push Ups 2", "0");
+                        WORKOUTS.put("Lunges 1", "5");
+                        WORKOUTS.put("Lunges 2", "0");
+                        WORKOUTS.put("High Knees 1", "0");
+                        WORKOUTS.put("High Knees 2", "0");
+                        WORKOUTS.put("Squats 1", "10");
+                        WORKOUTS.put("Squats 2", "10");
+                        WORKOUTS.put("Jumping Jacks 1", "5");
+                        WORKOUTS.put("Jumping Jacks 2", "5");
+
+                        i = new Intent(CategoryActivity.this, ReviewActivity.class);
+                        i.putExtra("SELECTED_START", SELECTED_START);
+                        i.putExtra("WORKOUTS", WORKOUTS);
+                        i.putExtra("ORIGIN", ORIGIN);
                         startActivityForResult(i, 0);
                         break;
                 }

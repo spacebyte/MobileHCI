@@ -34,6 +34,7 @@ public class ReviewActivity extends FragmentActivity implements OnMapReadyCallba
     TextView ToolbarText;
 
     String SELECTED_START = "Marker 1";
+    String ORIGIN = "CATEGORIES";
     LatLng[] lat_lngs = {
             new LatLng(55.870304, -4.284041),
             new LatLng(55.869582, -4.284033),
@@ -95,6 +96,7 @@ public class ReviewActivity extends FragmentActivity implements OnMapReadyCallba
 
         Intent intent = getIntent();
         SELECTED_START = intent.getExtras().getString("SELECTED_START");
+        ORIGIN = intent.getExtras().getString("ORIGIN");
         WORKOUTS = (HashMap<String, String>) intent.getSerializableExtra("WORKOUTS");
 
         ToolbarText = (TextView)findViewById(R.id.toolbar_text);
@@ -107,8 +109,19 @@ public class ReviewActivity extends FragmentActivity implements OnMapReadyCallba
         BackButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                Intent i = new Intent(ReviewActivity.this, CustomWorkoutsActivity.class);
-                startActivityForResult(i, 0);
+                System.out.println(ORIGIN);
+                Intent i;
+                if (ORIGIN.equals("PRESETS")){
+                    i = new Intent(ReviewActivity.this, PresetWorkoutsActivity.class);
+                    startActivityForResult(i, 0);
+                } else if (ORIGIN.equals("CUSTOMS")) {
+                    i = new Intent(ReviewActivity.this, CustomWorkoutsActivity.class);
+                    startActivityForResult(i, 0);
+                } else if (ORIGIN.equals("CATEGORIES")){
+                    i = new Intent(ReviewActivity.this, CategoryActivity.class);
+                    startActivityForResult(i, 0);
+                }
+
             }
         });
 

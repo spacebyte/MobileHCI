@@ -38,6 +38,7 @@ public class BuildWorkoutActivity extends FragmentActivity implements OnMapReady
     TextView ToolbarText;
 
     String SELECTED_START;
+    String ORIGIN = "CUSTOMS";
     LatLng[] lat_lngs = {
             new LatLng(55.870304, -4.284041),
             new LatLng(55.869582, -4.284033),
@@ -124,6 +125,7 @@ public class BuildWorkoutActivity extends FragmentActivity implements OnMapReady
                 Intent i = new Intent(BuildWorkoutActivity.this, ReviewActivity.class);
                 i.putExtra("SELECTED_START", SELECTED_START);
                 i.putExtra("WORKOUTS", WORKOUTS);
+                i.putExtra("ORIGIN", ORIGIN);
                 startActivityForResult(i, 0);
             }
         });
