@@ -4,13 +4,89 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="200dip"
+        android:id="@+id/graph" />
+
     <TextView
-        android:id="@+id/textView"
+        android:text="Kilometers Jogged total: 4.6KM "
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Tab 2"
-        android:textAppearance="?android:attr/textAppearanceLarge"/>
+        android:textSize="70px"
+        android:id="@+id/km"
+        android:layout_below="@+id/graph"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <TextView
+        android:text="Jumping Jacks Completed: 60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jj"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/km"
+        android:layout_alignStart="@+id/km" />
+
+    <TextView
+        android:text="Sit Ups Completed: 29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/situps"
+        android:layout_below="@+id/pushups"
+        android:layout_alignStart="@+id/pushups"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:text="Push Ups Completed: 34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/pushups"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/jj"
+        android:layout_alignStart="@+id/jj" />
+
+    <TextView
+        android:text="High Knees Completed: 98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highknee"
+        android:layout_below="@+id/situps"
+        android:layout_alignStart="@+id/situps"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:text="Lunges Completed: 13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lunges"
+        android:layout_below="@+id/highknee"
+        android:layout_alignStart="@+id/highknee"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:text="Squats Completed: 7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/squats"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/lunges"
+        android:layout_alignStart="@+id/lunges" />
+
+    <Button
+        android:id="@+id/to_category_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#b9ecff"
+        android:gravity="center"
+        android:text="START WORKOUT"
+        android:layout_below="@+id/to_category_button"
+        android:layout_alignStart="@+id/to_category_button"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="20dp" />
+
 
 </RelativeLayout>
 
