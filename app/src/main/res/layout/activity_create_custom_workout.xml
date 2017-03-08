@@ -5,7 +5,7 @@
               android:layout_height="match_parent"
     android:background="@color/white"
 
-    android:weightSum="10">
+    android:weightSum="9">
     <include
         android:id="@+id/toolbar"
         layout="@layout/toolbar"/>
@@ -17,11 +17,18 @@
               android:layout_height="0dp"
               android:layout_weight="5"
               tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="Select number of laps"/>
     <NumberPicker
+        android:id="@+id/lap_picker"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="4">
+        android:layout_weight="2">
 
     </NumberPicker>
     <LinearLayout

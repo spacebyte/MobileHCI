@@ -3,597 +3,651 @@
 
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3270d392adef5decc7bace1a3c2e749bec7bf19e">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.6.0_ba60a18e157223e578648b63d44d31435c2a5900/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8c5a6834c3e0cd0460bf2bdb10eee863bedff1">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a35b3b1f766e082eb50aa5bb1db28efb27196952/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1bf2ceb0034efe20249a561096f6e288cce7a0a4">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.6.0_009260ff4c0862459c80db61c56cdb41d872abad/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.6.0_69d238ce605905895ff37344b5346563abf035c5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="266e4ac186afacc3b220a0cf8382348283b42407">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.6.0_f493a4bc5c2ec7407d99ff32bd60492add2044d5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a723c85825d9591baec200523c10662e30c8bed7">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.6.0_0dd785359aec3121f41a7252ee1980f0f3d6967b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_1bc972af5469aec91eaae4051bc0b3195457bc87/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5fef4ad8c5b2519596b80a241d56b69dffcd6845">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-9.6.0_d649683cd41d1feae297dd02237f8e16d3cea6df/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_4c3a22540fa9cf7bcfa6bac636fdb8ebb34f73af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c48db997d87eb3e3ad47713cfbfe7cb878a2e66c">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.6.0_013bc3aa2262e7a98b0d069e9d16a45357682885/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f4540ad2a6e3741694e9332f0c20607c780fae6c">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.6.0_ac02331fd08545ba161983f8d7dc4c202519ca57/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4ab00b7d310cfdfff3a9446554485647153d0792">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.6.0_19af88646a53120f8a9eaf727914b7e3ff4502a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_f77c32032f8cd4ffdfc48f941ced9575ffd23ec0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d1e7862a5a7675940acb6efcab34b38de89c9e18">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.6.0_39fbf43457314774429226ecae2ca2fc6892abc6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d39f676be8400123523882d189a1d84040d34339">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.6.0_50c4607f5e27c92d9597684c4ff5b18f8461b633/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="97e3259dcdaa9b33014a849f6d3bdbb4ef478383">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.6.0_55c770064076857014e6c804eaf624e557f471be/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7357a05eea2a049c33488c7e8c6f887b3483d4b8">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.6.0_cf0004c27d77931abea68550536debc5345b729f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.6.0_8d4e76bba90290c93c09210afa5ab3666a1f7cf5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_2b8b47fbd6a1e41aa38954ef916b23b3acb68491/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4cfc5a74aa9453cbec685cdbcb3e3f3539b483bd">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.6.0_3860a71a6058e2039efd9f46d8d16b3c09c276c3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="43ab9b69758a0f22706629223c367e9bd478e1a8">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.6.0_91b21d4bc71d463809ab869e84a1d0cafd2dfb44/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d57767271a9c140da143ec0db9a0673b6d96eccb">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.6.0_b1fdf3a9e92736607838896b95b439af61bc8008/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_20a4cbb1e56d95751855df708faee1f7f647c34e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_fce2b9874b121a17797c622167997afd5078180f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.github.eralpyucel/CircleProgressView/v1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9bd269ff9b6004238cadb51233559f829c30905e">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.eralpyucel-CircleProgressView-v1.1_5cf24251cedccf5bd009d6d638b1e766c0b6838b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.6.0_9d4d25dd39d380f2d715e808815e8cd2f7b4c766/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5243af50631020511cf2403789678149b1a319e6">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.0_9ca58b751c04086daa08c8e84fb0f6e5d7c6441e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf803332f826adea247cc452d0bb04d7943f0007">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.6.0_6976d8771ba0ab73e77e3fb262e01710218c4d85/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="53f7fbab5e6f4149eb5a1cdeabaeeeee11a84ebe">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.6.0_3c4339175df0f433bc673223fb78591bc6f6f8ec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f2c9c986087e5862518757d0c988c8eac1a47bfd">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.6.0_e84f5e0ad585f4c945a986aabae7a4a82ff0bb0d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="12e94600a0ea3beae6ea0f1d18a0768ded5bc1ae">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.6.0_9e9153b0e548312ca3012c5ffba320e2c5e9db48/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a93aa431de60b775c91158433f3c687f1d32cb9c">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.0_b8ac314ea43be0c96c4efbc99f8acdc462cd4731/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="580fa73d5bf63ffd04b9d66d0e75a2ed21842702">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.6.0_bfa772da845a33224c49687fb830ee755abf38fe/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="987adec819c9a98faf215814f41195da48fc724e">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jjoe64-graphview-4.2.1_2509ea1f239472008e32b0b0b37420b7a4f17b66/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6079f942bb34faee179b4c46396a26fbbfc43e5d">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.6.0_ed63981f6a576db24a1d095c0fcaa2d7ccef03d0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_93b5ea2d1db75e4909842e4f1c92154a3f4702ce/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_ddb7b694b52d1369d2232248d2b82bce1d7bc896/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6d16df2955bbd154b36819386cfd2e3b7f7cae5b">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.6.0_c41c653f4dd79087fca988c8fcaacdab3571e25e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ba2f029ff37297295d2d197ac6e957b361bfccaf">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.0_76c1b81a9971ca069511eda537bf749e95f4bcbd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a917154cf730ea6ec2495705309e6a4065cde2ac">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.6.0_4bfafe940fcd98c65742eda105a5c597ec8bb438/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ea5537e2a88ce0497d3e2272b1cf93f2e0c77b0d">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.6.0_47ad9fb622a346510f114f74f00f751c160423bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5e651c1430cc9b8a3b3b5a9d92bb173214dfdf42">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.0_8af5fd192e4514e695b9d73d031b6bd7ecf07a75/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_2d18ef2026099a9b5aae9880c304c04d4b623aed/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="73699fb64ea3de4a43d0f5c37dc525a5e1341ca1">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.6.0_5cb3d8277f7215a65cb79add433eeefa2c97a499/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="38d4077335abd18257cb4e802d1988fc11638735">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_7beecfae2b744bc935168b9ca373b17547cd9072/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.6.0_9bdc6186fa95ede594ea3fba19014ef1aa9798a9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9f5c557145ddef094005eb73d72a7eaf330a0cf1">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.6.0_2511ce3e8b1491683d7935b3af75a0ab95d89db0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de2c50f4a24277d22d675d598640da6d4622b14d">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.6.0_74fb70521df58909a291412ad572750473177fd2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="74d1712880eb2b4ab37ddf3c6a3232c883756726">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.6.0_2bbf18de9ec59daa95bd5537417b41ac7fb1cefb/classes.dex" />
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.6.0_9955e160ed4efef938d2dafc2cd159bdcaead688\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="300e72616fdf265bb36bff7adb1ebec7b1d72817">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.6.0_ca0a6fa3e05523eb59506d3252fb073fc904e85e/classes.dex" />
+        sha1="53f7fbab5e6f4149eb5a1cdeabaeeeee11a84ebe">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.6.0_9424aec9af591d68001f0d89b5eac78e57ea6d82\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="26cd46f7bc6e1f269062b61269317a29329a9a7b">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.6.0_f5c4b95c101588c6b92835497377c0179d56c8af/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_0e74edf09d7e643336019a246ebdb07bf0371eb1\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="1f4bb2577a30d0b3268fed038ed59230709ad593">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.6.0_1bb9d9ffefdcb45541f951a16c75c44b781bd138/classes.dex" />
+        sha1="f4540ad2a6e3741694e9332f0c20607c780fae6c">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.6.0_f9d5c7196ad61ab6bc7dc2aaaf2dcfa4bec4d4c3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\libs\internal_impl-24.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.6.0_a3bda5ef87fbc5e589995872630d70b75fc8d796/classes.dex" />
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_338b965504b4cf6bf75e2f3df660f7d3b725cb86\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="aee64634871d88a419d59eb743c1258a60f19700">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_26db3f2e980eb330a8bd833c72e66d232d23ad25/classes.dex" />
+        sha1="d57767271a9c140da143ec0db9a0673b6d96eccb">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.6.0_47d60c8320b7c28804442175aba3eb5f0d3902ba\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="415336382149f2a79eb80599e340e188f6724d6d">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.6.0_9dc17e25b46f36d32a78a2122c244989e2da5327/classes.dex" />
+        sha1="580fa73d5bf63ffd04b9d66d0e75a2ed21842702">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.6.0_2320113ae9e7ace14047d47e70bac006b329e5a3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="938ba83fbb26987368049237e47718d56e91e222">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.6.0_c0febfcb7a09f568cf793250662bf1a0185a258b/classes.dex" />
+        sha1="de2c50f4a24277d22d675d598640da6d4622b14d">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.6.0_15a856da66b817f44724fc1bf4caf6feb63c3c5c\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_be86f29b470e29f9eede2ff58d8bd984eb4b9b27/classes.dex" />
+        sha1="7a343e17f154f513a09c12946fae0f172be079ec">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.6.0_c262b8a42b82898784d09fedbfbd458502708dc0\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a5da6fc5a6f39aee309ae6ae670e1b942759dc51">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.6.0_53f01bf060db636b74934bf3a4c0c6d13b9c9463/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.6.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ce5313bb5ccc0c1e10c995e4efb2f2b08c848b39">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.6.0_cc8eeef413de65873d456ed4011f3c4c22691022/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_236df7812b0860c9ca35fd9c87ddc33cf4b2db42/classes.dex" />
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_abdf71615345ed88f44ffa86dc0ae3b929deb9c3\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.6.0_ee05d4591c23195ba5d89fc406c72683ce401aaa/classes.dex" />
+        sha1="4cfc5a74aa9453cbec685cdbcb3e3f3539b483bd">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.6.0_a3cae0ee388f4c0e8184c5cfbd1db442483838e8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="db0a4170961a16af6d7a5222bf90a5876eea4227">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.6.0_9ade9713d96783cebb30887adf5d3b62d108299d/classes.dex" />
+        sha1="300e72616fdf265bb36bff7adb1ebec7b1d72817">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.6.0_be5b1672b09e65c00706e4f30330478d66d5dbf5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.6.0_ba9d127b944547a3db7428f8de2792c6455b04a2/classes.dex" />
+        sha1="938ba83fbb26987368049237e47718d56e91e222">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.6.0_aefed1680eab68a568885cefb84135e748e3b2f5\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.maps.android\android-maps-utils\0.4.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f57b76211a1d7b0c1f18873af59faad95664681">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.maps.android-android-maps-utils-0.4.4_2ad075157349c83157a29c4ae8256576ea5cd8a4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a93aa431de60b775c91158433f3c687f1d32cb9c">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.6.0_e2ab2dd464806d7fb0bd9854736c76cae21bc32d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6d16df2955bbd154b36819386cfd2e3b7f7cae5b">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.6.0_beab6478a2ce326d53445747ecdf466b538d167c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12e94600a0ea3beae6ea0f1d18a0768ded5bc1ae">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.6.0_dd8d1ff3d58eae4d5fac3ee89666ce02d5ab75bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9f41e6463de88c3f979d796382fc24fb7e9cd41">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.6.0_b7bf511ea0d6faeddc0ba2ed3b08e4f058bb8a4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af14ab8054eda530cb724bad56d062971be0b207">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ed76217083ee2955db01d70b8cd962f27f44ad1f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_0dc6ba34439b9a9a11bcc18c597be76b62badae5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a917154cf730ea6ec2495705309e6a4065cde2ac">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.6.0_53da8721abba498cb15e576e4f8356fdacab9a0e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.0_fb8cfaa8049c49872ced9af0e362498b26e22c92\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea5537e2a88ce0497d3e2272b1cf93f2e0c77b0d">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.6.0_cbdf16734cef31c83ab70597fe4a51453a1f1ac3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\swgbh\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.1\constraint-layout-solver-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.1_8b79eae46666a8b54696f3ced858a1d1ea33f0c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7357a05eea2a049c33488c7e8c6f887b3483d4b8">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.6.0_ebaf343433a838b43141fa4e7788451418d1b918\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-instantapps\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5fef4ad8c5b2519596b80a241d56b69dffcd6845">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-instantapps-9.6.0_3d1cb2db01b12a185382eefbd7099e13934e714a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba2f029ff37297295d2d197ac6e957b361bfccaf">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.6.0_3cc8ac752cb51c4f78408874124e455b7ac249bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c48db997d87eb3e3ad47713cfbfe7cb878a2e66c">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.6.0_22fb0eb125409001b606bbd11a5bd799efdcdad1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jjoe64-graphview-4.2.1_161d55485524f29beaea0957e3ba50e5fa33b6ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3270d392adef5decc7bace1a3c2e749bec7bf19e">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.6.0_5afa6327ed71279f56bdf6a0686fa9efc4b7cd2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5da6fc5a6f39aee309ae6ae670e1b942759dc51">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.6.0_46cf01aa62f0b31f58d0c6d8e5106d8bee6d59b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\design\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.1.0_780d866e539be7b56cfac5551841661b3b6465c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ab00b7d310cfdfff3a9446554485647153d0792">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.6.0_f4b79a8b16a7d97e60fa9b6cb13e07bd46c51084\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\transition\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.1.0_223f00b6018f804b27f889c8df5fffe34965103e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_cc70a4da4d01c17c557ba7d97037a3347b0ec77e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73699fb64ea3de4a43d0f5c37dc525a5e1341ca1">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.6.0_ae88c717a7111ad99ab0838b6ace681237a6b402\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_988b9c17c5537a935977fc50a4c890e78e4c2a28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a723c85825d9591baec200523c10662e30c8bed7">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.6.0_0e2563fec9585b033a40fd382c29ab5db85ce2e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="266e4ac186afacc3b220a0cf8382348283b42407">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.6.0_74829f5193d0fbbd94684e223b255d115a826f12\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="0ef21408e3142ffbfbd4a7ec1762c3325c6c386c">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.6.0_f78206b2a81070b5884f23ea46ee19373660bef4/classes.dex" />
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.6.0_f69eb327fa643f869c29cc774f788fdc9ea80cb2\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="415336382149f2a79eb80599e340e188f6724d6d">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.6.0_7d56568f77804ee8a2cca949ab11c83718a5794a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\palette-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-palette-v7-24.0.0_26026e797ad9209b42ccaa605f3c3255b76a7152\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e651c1430cc9b8a3b3b5a9d92bb173214dfdf42">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.6.0_8f9fcf95100db877b6673a713ef7fd9984913369\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db0a4170961a16af6d7a5222bf90a5876eea4227">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.6.0_41e0b80923681cf16928a631a31e45c88d744880\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.github.eralpyucel\CircleProgressView\v1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9bd269ff9b6004238cadb51233559f829c30905e">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.eralpyucel-CircleProgressView-v1.1_720e8bfd6ac9f56ebbd49d64a907b1e5ad03072b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="97e3259dcdaa9b33014a849f6d3bdbb4ef478383">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.6.0_4808b211a31dcaedce2fb6308ccfdef38dd2a001\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f5c557145ddef094005eb73d72a7eaf330a0cf1">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.6.0_7f702baaa34169cb7fc4088bc100a8e67cfeed76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-awareness\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26cd46f7bc6e1f269062b61269317a29329a9a7b">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-awareness-9.6.0_1879d788d960f82b15af75935c842da2a972c210\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_081d98a60bbb13a9bfd6f93b7c997500371556e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d1e7862a5a7675940acb6efcab34b38de89c9e18">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.6.0_a0a04207aec0baa49f5dfa6ba87b005e07c1d47b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\swgbh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_0cce410fc9332af28a178f07f8eb26d3ad8a25ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support.constraint-constraint-layout-1.0.1_45d9659b2f1bdc8f358649851dae68aa02908f9c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_94377906cb20c54e2edd6b508249e7a203306a3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6079f942bb34faee179b4c46396a26fbbfc43e5d">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.6.0_afab7d61b715660ba9f27ee639843173de97ea9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.0_8179173f6ab1b00bdb75535443ddc5710aaf004f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f4bb2577a30d0b3268fed038ed59230709ad593">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.6.0_ea525ee6d599603c284472772161c385c0c33fa2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43ab9b69758a0f22706629223c367e9bd478e1a8">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.6.0_fc7c987584e948d807cc5b6999a04f715db89756\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bf2ceb0034efe20249a561096f6e288cce7a0a4">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.6.0_b055e72fe1fea06220ced1a9268c5be52d944c8f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_2cbce9ed342855ec81f4cbdecd648b4fe731518f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.0_4cbffb883629d47c7a929c439579f59b6ea5e26d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5b24d5e7e766f9a6952c64ef3d337c8f81b4b574">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_1fae731972934bf7829b5e3ece291250722db186\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_a72083ec9537c0cf2fcfa76d34d9c4ea817c1b42/classes.dex" />
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_1a1d3065cd4219710a53bcd86b1e50a20f20d3aa\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.6.0/jars/classes.jar"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d39f676be8400123523882d189a1d84040d34339">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.6.0_b6d7de01f7d7c38e8d842bad9ab31722add0df6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf803332f826adea247cc452d0bb04d7943f0007">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.6.0_e5e3930efd3bcc8aff791b2a8d5067980e3a594b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-24.0.0_a9f5f4a3ab64ba4c620fb9eea32714234fe75160\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5243af50631020511cf2403789678149b1a319e6">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.6.0_c98a12d1430b66604a5398bf971f8bf167225062\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.0_e4d6a0257214109f7219dd94b9f7e4effd8afd1d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2c9c986087e5862518757d0c988c8eac1a47bfd">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.6.0_579d3fcb4c8fb6d1cbfff666172a109421796a22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_8c41d2e5f1e52e3ead24c850d767440d335148c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.6.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="eb96a230c7b55d545fbdee45157a5a75b2b26284">
-        <dex dex="/home/timothy/workspace/HCI/MobileHCI/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.6.0_0ffd43722bb51b0336e3baaeb7214b056ac92cd2/classes.dex" />
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.6.0_6db1c7eb2123f78022ba7d3cf58535ed8b0ea289\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f861fce2e9fa167e7fe8d8558cf2cbb910b9fb34">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.6.0_7730f2a8453533d2a39ad704104c2394f296edeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce5313bb5ccc0c1e10c995e4efb2f2b08c848b39">
+        <dex dex="M:\Documents\Projects\MHCI_project\MobileHCI\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.6.0_3c67eee56b592718b986be135214983609d1024c\classes.dex" />
     </item>
 
 </items>

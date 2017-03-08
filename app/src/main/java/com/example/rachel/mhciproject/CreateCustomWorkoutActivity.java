@@ -1,10 +1,15 @@
 package com.example.rachel.mhciproject;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.text.InputType;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.NumberPicker;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -12,12 +17,16 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.maps.android.ui.IconGenerator;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -29,6 +38,7 @@ public class CreateCustomWorkoutActivity extends FragmentActivity implements OnM
     Button BackButton, NextButton;
     TextView ToolbarText;
     String SELECTED_START;
+    String workout_name;
 
     LatLng[] lat_lngs = {
             new LatLng(55.870304, -4.284041),
@@ -74,7 +84,6 @@ public class CreateCustomWorkoutActivity extends FragmentActivity implements OnM
             public void onClick(View v){
                 Intent i = new Intent(CreateCustomWorkoutActivity.this, BuildWorkoutActivity.class);
                 if(SELECTED_START != null) {
-                    System.out.println(SELECTED_START);
                     i.putExtra("SELECTED_START", SELECTED_START);
                     startActivityForResult(i, 0);
                 } else {
@@ -82,6 +91,31 @@ public class CreateCustomWorkoutActivity extends FragmentActivity implements OnM
                 }
             }
         });
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Enter workout name");
+
+        final EditText input = new EditText(this);
+        input.setInputType(InputType.TYPE_CLASS_TEXT);
+        builder.setView(input);
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                workout_name = input.getText().toString();
+            }
+        });
+
+        builder.show();
+
+        NumberPicker np = (NumberPicker) findViewById(R.id.lap_picker);
+        String[] nums = new String[20];
+        for(int i=0; i<nums.length; i++)
+            nums[i] = Integer.toString(i+1);
+        np.setMinValue(1);
+        np.setMaxValue(20);
+        np.setWrapSelectorWheel(false);
+        np.setDisplayedValues(nums);
+        np.setValue(1);
     }
 
     @Override
@@ -103,7 +137,7 @@ public class CreateCustomWorkoutActivity extends FragmentActivity implements OnM
                 .bearing(0)
                 .tilt(0)
                 .build();
-        googleMap.animateCamera(CameraUpdateFactory.newCameraPosition(starting_view));
+        googleMap.moveCamera(CameraUpdateFactory.newCameraPosition(starting_view));
         googleMap.setOnMarkerClickListener(this);
     }
 
@@ -112,11 +146,12 @@ public class CreateCustomWorkoutActivity extends FragmentActivity implements OnM
         for(Marker _marker: map_markers) {
             _marker.setTitle("");
             _marker.hideInfoWindow();
+            _marker.setIcon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
         }
         marker.setTitle("START");
-        marker.showInfoWindow();
+        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.flags_icon);
+        marker.setIcon(icon);
         SELECTED_START = (String) marker.getTag();
-        System.out.println(SELECTED_START);
         return true;
     }
 }

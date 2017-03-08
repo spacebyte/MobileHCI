@@ -23,20 +23,38 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@drawable/sit_up_icon"/>
         <NumberPicker
+            android:id="@+id/situp_number_picker"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="2">
+            android:layout_weight="1">
         </NumberPicker>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@drawable/push_up_icon"/>
         <NumberPicker
+            android:id="@+id/pushup_number_picker"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="2">
+            android:layout_weight="1">
         </NumberPicker>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@drawable/lunge_icon"/>
         <NumberPicker
+            android:id="@+id/lunges_number_picker"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="2">
+            android:layout_weight="1">
         </NumberPicker>
     </LinearLayout>
     <LinearLayout
@@ -44,20 +62,38 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:orientation="horizontal">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@drawable/squat_icon"/>
         <NumberPicker
+            android:id="@+id/squats_number_picker"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="2">
+            android:layout_weight="1">
         </NumberPicker>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@drawable/high_knees_icon"/>
         <NumberPicker
+            android:id="@+id/highknees_number_picker"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="2">
+            android:layout_weight="1">
         </NumberPicker>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@drawable/jumping_jack_icon"/>
         <NumberPicker
+            android:id="@+id/jumpingjacks_number_picker"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
-            android:layout_weight="2">
+            android:layout_weight="1">
         </NumberPicker>
     </LinearLayout>
     <LinearLayout
