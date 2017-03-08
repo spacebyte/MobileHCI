@@ -4,10 +4,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Your activity this month:"
+        android:padding="2dp"
+        android:paddingStart="16dp"
+        android:textSize="28sp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -35,6 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="Jumping Jacks"
+                android:textSize="20sp"
                 android:id="@+id/jumping_jacks_text"/>
         </LinearLayout>
 
@@ -61,17 +72,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Lunges"/>
+                android:text="Lunges"
+                android:textSize="20sp"/>
 
 
         </LinearLayout>
     </LinearLayout>
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -98,7 +109,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Sit Ups"/>
+                android:text="Sit Ups"
+                android:textSize="20sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -123,14 +135,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Push Ups"/>
+                android:text="Push Ups"
+                android:textSize="20sp"/>
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -157,7 +170,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="High Knees"/>
+                android:text="High Knees"
+                android:textSize="20sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -183,7 +197,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Squats"/>
+                android:text="Squats"
+                android:textSize="20sp"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -192,7 +207,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#b9ecff"
+        android:background="#0651cc"
+        android:textColor="#ffffff"
         android:gravity="center"
         android:text="START WORKOUT" />
 

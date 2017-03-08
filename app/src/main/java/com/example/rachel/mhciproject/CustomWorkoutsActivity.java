@@ -76,7 +76,6 @@ public class CustomWorkoutsActivity extends Activity{
                     @Override public void onLongItemClick(View view, int position) {
                         AlertDialog.Builder builder = new AlertDialog.Builder(CustomWorkoutsActivity.this);
                         builder.setTitle("WORKOUT DETAILS");
-                        String message = "MESSAGE";
                         builder.setView(R.layout.workout_preview);
                         builder.setNegativeButton("BACK", new DialogInterface.OnClickListener() {
                             @Override

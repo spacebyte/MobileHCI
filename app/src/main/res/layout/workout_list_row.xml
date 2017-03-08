@@ -3,6 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="16dp"
+    android:textSize="16dp"
     android:longClickable="true"
     android:id="@+id/text"
+    android:background="@drawable/back"
     xmlns:android="http://schemas.android.com/apk/res/android"/>
